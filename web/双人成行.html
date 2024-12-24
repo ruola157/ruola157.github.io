@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAFT</title>
+    <style>
+        body {
+            background-image: url("../image/bg.webp");
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white; /* 设置全局文本颜色为白色 */
+        }
+        #a3, #a4, #a5 {
+            height: 46px;
+            width: 82px;
+        }
+        #container {
+            display: flex;
+            flex-direction: row;
+        }
+        .wen {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* 垂直居中文本 */
+            margin: 10px; /* 添加外边距 */
+        }
+        pre {
+            background-color: white; /* 设置背景颜色为白色 */
+            color: black; /* 设置文本颜色为黑色 */
+            font-size: 20px;
+            padding: 10px; /* 添加内边距 */
+            border-radius: 8px; /* 设置圆角 */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* 添加阴影 */
+            margin: 10px 0; /* 添加上下外边距，去除左右外边距 */
+            max-width: 90%; /* 设置最大宽度，确保文本框不会超出容器 */
+            overflow: hidden; /* 隐藏超出部分 */
+            text-align: center; /* 文本居中 */
+        }
+    </style>
+</head>
+
+<body>
+    <img id="a1" src="../image/It_Takes_Two_cover_art.png">
+    <div id="container">
+        <div class="wen">
+            <img id="a3" src="../image/It_Takes_Two_cover_art.png">
+            <pre>双人成行</pre>
+            <pre>科迪（Cody）和小梅（May）是一对感情破裂即将走向离婚的夫妻...</pre>
+        </div>
+        <div class="wen">
+            <img id="a4" src="../image/IT2.jpg">
+            <pre>游戏截图</pre>
+        </div>
+        <div class="wen">
+            <img id="a5" src="../image/IT3.jpg">
+            <pre></pre> <!-- 如果没有文本，可以保留这个空的pre标签 -->
+        </div>
+    </div>
+
+</body>
+
+</html>

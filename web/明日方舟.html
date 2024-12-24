@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>明日方舟</title>
+    <style>
+        body {
+            background-image: url("../image/bg.webp");
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #a2, #a3, #a4 {
+            height: 600px;
+            width: 450px;
+        }
+
+        #container {
+            display: flex;
+            flex-direction: row;
+            justify-content: center; /* 居中容器内的元素 */
+        }
+
+        .wen {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* 垂直居中文本和图片 */
+            margin: 10px; /* 添加外边距 */
+        }
+
+        pre {
+            background-color: white; /* 设置背景颜色为白色 */
+            color: black; /* 设置文本颜色为黑色 */
+            font-size: 20px;
+            padding: 10px; /* 添加内边距 */
+            border-radius: 10px; /* 设置圆角 */
+            white-space: pre-wrap; /* 保留空白符序列，但是正常换行 */
+            word-wrap: break-word; /* 允许长单词换行 */
+            word-break: break-word; /* 允许在单词内换行 */
+            margin: 0; /* 重置外边距 */
+        }
+    </style>
+</head>
+
+<body>
+    <img id="a1" src="../image/明日方舟.webp">
+    <div id="container">
+        <div class="wen">
+            <img id="a2" src="../image/logos.png">
+            <pre>逻各斯</pre>
+        </div>
+        <div class="wen">
+            <img id="a3" src="../image/克里斯滕.png">
+            <pre>克里斯滕·莱特</pre>
+        </div>
+        <div class="wen">
+            <img id="a4" src="../image/巫王.png">
+            <pre>赫里昏佐伦</pre>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAFT</title>
+    <style>
+        body {
+            background-image: url("../image/bg.webp");
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        #a3, #a4, #a5 {
+            height: 46px;
+            width: 82px;
+        }
+        #container {
+            display: flex;
+            flex-direction: row;
+            justify-content: center; /* 居中容器内的元素 */
+        }
+        .wen {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* 垂直居中文本和图片 */
+            margin: 10px; /* 添加外边距 */
+        }
+        pre {
+            background-color: white; /* 设置背景颜色为白色 */
+            color: black; /* 设置文本颜色为黑色 */
+            font-size: 16px; /* 适当调整字体大小以适应文本框 */
+            padding: 10px; /* 添加内边距 */
+            border-radius: 10px; /* 设置圆角 */
+            white-space: pre-wrap; /* 保留空白符序列，但是正常换行 */
+            word-wrap: break-word; /* 允许长单词换行 */
+            word-break: break-word; /* 允许在单词内换行 */
+            margin: 5px 0; /* 添加上下外边距，去除左右外边距 */
+            min-width: 200px; /* 设置最小宽度，确保文本框不会太窄 */
+        }
+    </style>
+</head>
+
+<body>
+    <img id="a1" src="../image/tt.png">
+    <div id="container">
+        <div class="wen">
+            <img id="a3" src="../image/r3.jpg">
+            <pre>RAFT</pre>
+            <pre>
+                在不久的将来，气候变化和气温上升导致极地冰盖融化，淹没整个地球，几乎没有旱地可供定居。由于逆转海平面上升的绝望计划失败或被放弃，文明崩溃了。最终，世界上的精英们决定完全放弃旱地，住在漂浮的城市上，而其余的人则在海水泛滥的世界中自生自灭。
+
+                玩家扮演前锋侦察兵的角色，飘浮在海上的木筏去查找可居住的土地和资源。
+            </pre>
+        </div>
+        <div class="wen">
+            <img id="a4" src="../image/r1.jpg">
+            <pre>游戏截图</pre>
+        </div>
+        <div class="wen">
+            <img id="a5" src="../image/r2.jpg">
+            <!-- 如果没有文本，可以保留这个空的pre标签或者直接删除 -->
+        </div>
+    </div>
+
+</body>
+
+</html>
